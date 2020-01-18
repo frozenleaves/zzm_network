@@ -1,0 +1,9 @@
+堆肥前：
+    bacteria <--> ARG 0.83472179
+
+堆肥后：
+    bacteria <--> ARG 0.65805044
+
+多元回归分析：
+     X：pH， N %， C %， T
+     Y： ARG

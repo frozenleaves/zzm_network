@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835188d0-633a-4b62-9462-a8da49bb7a64" name="Default Changelist" comment="network">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/correlation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/do_PCA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anova.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anova_require" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reset_data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Aminoglycoside.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Beta_Lactamase.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/C_N.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Chloramphenicol.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/MGEs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/MLSB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Multidrug.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Others.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/PH.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Sulfonamide.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Tetracycline.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/Vancomycin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/result.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/比较.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/result1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_correlation_result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/周泽明.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/周泽明.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +51,7 @@
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../算法" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -58,8 +68,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.write_correlation_result">
-    <configuration name="ARG_Phylum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.anova">
+    <configuration name="anova" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="周泽明" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +82,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\周泽明\correlation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anova.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="do_PCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="personer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="周泽明" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,29 +104,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_PCA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="percent_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="周泽明" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/percent_network.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/personer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write_correlation_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="reset_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="周泽明" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +148,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/write_correlation_result.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reset_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="周泽明" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.write_correlation_result" />
-        <item itemvalue="Python.ARG_Phylum" />
+        <item itemvalue="Python.anova" />
+        <item itemvalue="Python.reset_data" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.personer" />
         <item itemvalue="Python.regression_analysis" />
-        <item itemvalue="Python.do_PCA" />
-        <item itemvalue="Python.percent_network" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +230,19 @@
       <workItem from="1575007151635" duration="13186000" />
       <workItem from="1575268215834" duration="19819000" />
       <workItem from="1575375884578" duration="7864000" />
-      <workItem from="1575722679627" duration="241000" />
+      <workItem from="1575722679627" duration="391000" />
+      <workItem from="1576374999764" duration="2961000" />
+      <workItem from="1576413733911" duration="138000" />
+      <workItem from="1578569591344" duration="1065000" />
+      <workItem from="1578645258586" duration="1162000" />
+      <workItem from="1578792979068" duration="1722000" />
+      <workItem from="1578974244136" duration="27000" />
+      <workItem from="1579069925893" duration="8365000" />
+      <workItem from="1579135736703" duration="592000" />
+      <workItem from="1579141955943" duration="30196000" />
+      <workItem from="1579230056725" duration="7968000" />
+      <workItem from="1579322434418" duration="480000" />
+      <workItem from="1579328035406" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="network">
       <created>1572424664649</created>
@@ -229,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572424664649</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="相关性">
+      <created>1575722992944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575722992944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,20 +279,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="network" />
-    <option name="LAST_COMMIT_MESSAGE" value="network" />
+    <MESSAGE value="相关性" />
+    <option name="LAST_COMMIT_MESSAGE" value="相关性" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$data.coverage" NAME="data Coverage Results" MODIFIED="1569647882303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$percent_network.coverage" NAME="percent_network Coverage Results" MODIFIED="1570799299478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$nodes.coverage" NAME="nodes Coverage Results" MODIFIED="1567672065252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$regression_analysis.coverage" NAME="regression_analysis Coverage Results" MODIFIED="1575128519054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$regression_analysis.coverage" NAME="regression_analysis Coverage Results" MODIFIED="1576376346162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$do_PCA.coverage" NAME="do_PCA Coverage Results" MODIFIED="1575119294045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$node.coverage" NAME="node Coverage Results" MODIFIED="1570790940097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$network.coverage" NAME="network Coverage Results" MODIFIED="1567695435571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$ARG_Phylum.coverage" NAME="ARG_Phylum Coverage Results" MODIFIED="1575280827969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1579077638123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$anova.coverage" NAME="anova Coverage Results" MODIFIED="1579245665715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$percent_network.coverage" NAME="percent_network Coverage Results" MODIFIED="1570799299478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$nodes.coverage" NAME="nodes Coverage Results" MODIFIED="1567672065252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$reset_data.coverage" NAME="reset_data Coverage Results" MODIFIED="1579233711883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1567249892868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$write_correlation_result.coverage" NAME="write_correlation_result Coverage Results" MODIFIED="1575382067221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$personer.coverage" NAME="personer Coverage Results" MODIFIED="1570787873217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$ARG_Phylum.coverage" NAME="ARG_Phylum Coverage Results" MODIFIED="1575280827969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$personer.coverage" NAME="personer Coverage Results" MODIFIED="1578645737599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>

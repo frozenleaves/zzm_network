@@ -1,0 +1,16 @@
+CMU-CMC
+             sum_sq   df             F        PR(>F)
+C(Sample)  47.37524  1.0  80983.855891  9.147841e-10
+Residual    0.00234  4.0           NaN           NaN
+ECU-ECC
+             sum_sq   df          F    PR(>F)
+C(Sample)  0.165870  1.0  37.551196  0.003593
+Residual   0.017669  4.0        NaN       NaN
+CDU-CDC
+             sum_sq   df           F    PR(>F)
+C(Sample)  0.530144  1.0  207.389471  0.000135
+Residual   0.010225  4.0         NaN       NaN
+SMU-SMC
+             sum_sq   df           F    PR(>F)
+C(Sample)  0.291851  1.0  102.916678  0.000532
+Residual   0.011343  4.0         NaN       NaN

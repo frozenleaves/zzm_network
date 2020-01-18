@@ -1,0 +1,64 @@
+堆肥前 MGE --> ARG: 0.3102
+堆肥前 phylum --> ARG: 0.2566
+堆肥前 environment --> ARG: 0.3152
+堆肥前 unexplained --> ARG: 0.1179
+
+堆肥后 MGE --> ARG: 0.3476
+堆肥后 phylum --> ARG: 0.0568
+堆肥后 environment --> ARG: 0.3119
+堆肥后 unexplained --> ARG: 0.2837
+
+
+堆肥前 MGE --> ARG: 0.2833
+堆肥前 phylum --> ARG: 0.2476
+堆肥前 environment --> ARG: 0.2772
+堆肥前 unexplained --> ARG: 0.1919
+
+堆肥后 MGE --> ARG: 0.3915
+堆肥后 phylum --> ARG: 0.2104
+堆肥后 environment --> ARG: 0.3189
+堆肥后 unexplained --> ARG: 0.0793
+
+
+堆肥前 MGE --> ARG: 0.2625
+堆肥前 phylum --> ARG: 0.0517
+堆肥前 environment --> ARG: 0.1809
+堆肥前 unexplained --> ARG: 0.6083
+
+堆肥后 MGE --> ARG: 0.1163
+堆肥后 phylum --> ARG: 0.0833
+堆肥后 environment --> ARG: 0.1172
+堆肥后 unexplained --> ARG: 0.6831
+
+
+堆肥前 MGE --> ARG: 0.1698
+堆肥前 phylum --> ARG: 0.2862
+堆肥前 environment --> ARG: 0.1775
+堆肥前 unexplained --> ARG: 0.3665
+
+堆肥后 MGE --> ARG: 0.2273
+堆肥后 phylum --> ARG: 0.2610
+堆肥后 environment --> ARG: 0.2383
+堆肥后 unexplained --> ARG: 0.2734
+
+
+堆肥前 MGE --> ARG: 0.2905
+堆肥前 phylum --> ARG: 0.2326
+堆肥前 environment --> ARG: 0.3119
+堆肥前 unexplained --> ARG: 0.1649
+
+堆肥后 MGE --> ARG: 0.2289
+堆肥后 phylum --> ARG: 0.0624
+堆肥后 environment --> ARG: 0.3627
+堆肥后 unexplained --> ARG: 0.3460
+
+
+堆肥前 MGE --> ARG: 0.3162
+堆肥前 phylum --> ARG: 0.2951
+堆肥前 environment --> ARG: 0.3227
+堆肥前 unexplained --> ARG: 0.0661
+
+堆肥后 MGE --> ARG: 0.2850
+堆肥后 phylum --> ARG: 0.0402
+堆肥后 environment --> ARG: 0.3326
+堆肥后 unexplained --> ARG: 0.3422

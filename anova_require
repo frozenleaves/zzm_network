@@ -1,0 +1,8 @@
+1.所有未堆肥样品的比较    CMU ECU CDU SMU
+2。所有堆肥样品的比较     CMC ECC CDC SMC
+3. CMU和CMC，ECU和ECC，CDU和CDC，SMU和SMC之间的比较
+
+I would highly appreciate the addition of the ANOVA test
+and the comparison of CMU vs CMC, ECU vs ECC, CDU vs CDC
+and SMU vs SMC  for each ARGs and MGEs.
+If there is a statistically significant difference, add "*" above specific columns
